@@ -155,9 +155,8 @@ class SnakeGame:
 
 
 if __name__ == '__main__':
-    # Extra info over pygame: https://www.pygame.org/docs/
     try:
-        sg = SnakeGame("Example 2 - Snake object")
+        sg = SnakeGame("Example 3 - Snake auto movement")
         sg.start()
     except Exception as ex:
         print(ex)
